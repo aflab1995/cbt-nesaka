@@ -62,6 +62,22 @@
             text-align: center;
         }
 
+                /* === GAYA BARU UNTUK IKON ERROR === */
+        .error-box .error-icon {
+            font-size: 48px; /* Ukuran ikon lebih besar */
+            color: #e60000; /* Warna ikon merah gelap */
+            margin-bottom: 15px; /* Jarak antara ikon dan teks */
+            display: block; /* Agar ikon berada di tengah */
+        }
+
+        .error-box p {
+            margin: 8px 0; /* Sedikit spasi antar paragraf */
+            line-height: 1.5;
+        }
+        .error-box p strong {
+            font-size: 18px; /* Ukuran font judul error */
+        }
+
         /* Daftar Link (Tombol) */
         .links-list {
             list-style: none;
